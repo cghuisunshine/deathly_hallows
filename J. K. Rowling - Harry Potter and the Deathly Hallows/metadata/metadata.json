@@ -1,0 +1,324 @@
+{
+  "title": "Harry Potter and the Deathly Hallows",
+  "description": {
+    "full": "<p>Jim Dale's Grammy Award-winning performance of J.K. Rowling's iconic stories is a listening adventure for the whole family.<br><i>'Give me Harry Potter,' said Voldemort's voice, 'and none shall be harmed. Give me Harry Potter, and I shall leave the school untouched. Give me Harry Potter, and you will be rewarded.'</i><br>Close your eyes and enter the magical world of Harry Potter. In these editions, Jim Dale's characterful narration is so entertaining, fun, and theatrical you can almost hear the crackle of the fire in the Gryffindor common room.<br>As he climbs into the sidecar of Hagrid's motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is broken, but he cannot keep hiding. The Dark Lord is breathing fear into everything Harry loves and to stop him Harry will have to find and destroy the remaining Horcruxes. The final battle must begin - Harry must stand and face his enemy...<br>Having become classics of our time, the Harry Potter stories never fail to bring comfort and escapism. With their message of hope, belonging and the enduring power of truth and love, the story of the Boy Who Lived continues to delight generations of new listeners.</p>",
+    "short": "<p>Jim Dale's Grammy Award-winning performance of J.K. Rowling's iconic stories is a listening adventure for the whole family.<br><i>'Give me Harry Potter,' said Voldemort's voice, 'and none shall be harmed. Give me Harry Potter, and I shall leave the school untouched. Give me Harry Potter, and you will be rewarded.'</i><br>Close your eyes and enter the magical world of Harry Potter. In these editions, Jim Dale's characterful narration is so entertaining, fun, and theatrical you can almost hear the crackle of the fire in the Gryffindor common room.<br>As he climbs into the sidecar of Hagrid's motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is broken, but he cannot keep hiding. The Dark Lord is breathing fear into everything Harry loves and to stop him Harry will have to find and destroy the remaining Horcruxes. The final...</p>"
+  },
+  "coverUrl": "https://libbyapp.com/covers/resize?type=auto&width=536&quality=80&force=true&height=536&url=%2FImageType-100%2F3450-1%2F%257BA218DBCF-48DC-4668-91CE-0FC1CD4AC5F1%257DIMG100.JPG",
+  "creator": [
+    {
+      "name": "J. K. Rowling",
+      "role": "author",
+      "bio": ""
+    },
+    {
+      "name": "Jim Dale",
+      "role": "narrator",
+      "bio": ""
+    },
+    {
+      "name": "Olly Moss",
+      "role": "other",
+      "bio": ""
+    }
+  ],
+  "spine": [
+    {
+      "duration": 4420.519125,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 4418.08975,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 2464.626875,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 2613.524875,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 4170.031,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 2667.6505,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 4479.190125,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3865.573875,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 4589.453,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3357.1265,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 4287.6865,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 4179.617875,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3246.001625,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 4310.700375,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3691.337125,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3400.48975,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 1902.288875,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3056.48325,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 2223.072625,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3266.115875,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3499.15425,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    },
+    {
+      "duration": 3672.032625,
+      "type": "audio/mpeg",
+      "bitrate": 64
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1:  The Dark Lord Ascending",
+      "spine": 0,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 2:  In Memoriam",
+      "spine": 0,
+      "offset": 1487
+    },
+    {
+      "title": "Chapter 3:  The Dursleys Departing",
+      "spine": 0,
+      "offset": 3066
+    },
+    {
+      "title": "Chapter 4:  The Seven Potters",
+      "spine": 1,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 5:  Fallen Warrior",
+      "spine": 1,
+      "offset": 2071
+    },
+    {
+      "title": "Chapter 6:  The Ghoul in Pyjamas",
+      "spine": 2,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 7:  The Will of Albus Dumbledore",
+      "spine": 3,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 8:  The Wedding",
+      "spine": 4,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 9:  A Place to Hide",
+      "spine": 4,
+      "offset": 2621
+    },
+    {
+      "title": "Chapter 10:  Kreacher's Tale",
+      "spine": 5,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 11:  The Bribe",
+      "spine": 6,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 12:  Magic is Might",
+      "spine": 6,
+      "offset": 2141
+    },
+    {
+      "title": "Chapter 13:  The Muggle-Born Registration Commission",
+      "spine": 7,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 14:  The Thief",
+      "spine": 7,
+      "offset": 2294
+    },
+    {
+      "title": "Chapter 15:  The Goblin's Revenge",
+      "spine": 8,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 16:  Godric's Hollow",
+      "spine": 8,
+      "offset": 2671
+    },
+    {
+      "title": "Chapter 17:  Bathilda's Secret",
+      "spine": 9,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 18:  The Life and Lies of Albus Dumbledore",
+      "spine": 9,
+      "offset": 2065
+    },
+    {
+      "title": "Chapter 19:  The Silver Doe",
+      "spine": 10,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 20:  Xenophilius Lovegood",
+      "spine": 10,
+      "offset": 2553
+    },
+    {
+      "title": "Chapter 21:  The Tale of the Three Brothers",
+      "spine": 11,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 22:  The Deathly Hallows",
+      "spine": 11,
+      "offset": 1942
+    },
+    {
+      "title": "Chapter 23:  Malfoy Manor",
+      "spine": 12,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 24:  The Wandmaker",
+      "spine": 13,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 25:  Shell Cottage",
+      "spine": 13,
+      "offset": 2650
+    },
+    {
+      "title": "Chapter 26:  Gringotts",
+      "spine": 14,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 27:  The Final Hiding Place",
+      "spine": 14,
+      "offset": 2669
+    },
+    {
+      "title": "Chapter 28:  The Missing Mirror",
+      "spine": 15,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 29:  The Lost Diadem",
+      "spine": 15,
+      "offset": 1746
+    },
+    {
+      "title": "Chapter 30:  The Sacking of Severus Snape",
+      "spine": 16,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 31:  The Battle of Hogwarts",
+      "spine": 17,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 32:  The Elder Wand",
+      "spine": 18,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 33:  The Prince's Tale",
+      "spine": 19,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 34:  The Forest Again",
+      "spine": 20,
+      "offset": 0
+    },
+    {
+      "title": "Chapter 35:  King's Cross",
+      "spine": 20,
+      "offset": 1454
+    },
+    {
+      "title": "Chapter 36:  The Flaw in the Plan",
+      "spine": 21,
+      "offset": 0
+    },
+    {
+      "title": "Epilogue:  Nineteen Years Later",
+      "spine": 21,
+      "offset": 2959
+    }
+  ]
+}

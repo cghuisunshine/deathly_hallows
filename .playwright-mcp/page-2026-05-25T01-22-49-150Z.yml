@@ -1,0 +1,171 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - paragraph [ref=e4]: Harry Potter and the Chamber of Secrets
+      - navigation [ref=e5]:
+        - button "01 The Worst Birthday" [ref=e6] [cursor=pointer]:
+          - generic [ref=e7]: "01"
+          - generic [ref=e8]: The Worst Birthday
+        - button "02 Dobby's Warning" [ref=e9] [cursor=pointer]:
+          - generic [ref=e10]: "02"
+          - generic [ref=e11]: Dobby's Warning
+        - button "03 The Burrow" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: "03"
+          - generic [ref=e14]: The Burrow
+        - button "04 At Flourish and Blotts" [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: "04"
+          - generic [ref=e17]: At Flourish and Blotts
+        - button "05 The Whomping Willow" [ref=e18] [cursor=pointer]:
+          - generic [ref=e19]: "05"
+          - generic [ref=e20]: The Whomping Willow
+        - button "06 Gilderoy Lockhart" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: "06"
+          - generic [ref=e23]: Gilderoy Lockhart
+        - button "07 Mudbloods and Murmurs" [ref=e24] [cursor=pointer]:
+          - generic [ref=e25]: "07"
+          - generic [ref=e26]: Mudbloods and Murmurs
+        - button "08 The Deathday Party" [ref=e27] [cursor=pointer]:
+          - generic [ref=e28]: "08"
+          - generic [ref=e29]: The Deathday Party
+        - button "09 The Writing on the Wall" [ref=e30] [cursor=pointer]:
+          - generic [ref=e31]: "09"
+          - generic [ref=e32]: The Writing on the Wall
+        - button "10 The Rogue Bludger" [ref=e33] [cursor=pointer]:
+          - generic [ref=e34]: "10"
+          - generic [ref=e35]: The Rogue Bludger
+        - button "11 The Dueling Club" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]: "11"
+          - generic [ref=e38]: The Dueling Club
+        - button "12 The Polyjuice Potion" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: "12"
+          - generic [ref=e41]: The Polyjuice Potion
+        - button "13 The Very Secret Diary" [ref=e42] [cursor=pointer]:
+          - generic [ref=e43]: "13"
+          - generic [ref=e44]: The Very Secret Diary
+        - button "14 Cornelius Fudge" [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: "14"
+          - generic [ref=e47]: Cornelius Fudge
+        - button "15 Aragog" [ref=e48] [cursor=pointer]:
+          - generic [ref=e49]: "15"
+          - generic [ref=e50]: Aragog
+        - button "16 The Chamber of Secrets" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: "16"
+          - generic [ref=e53]: The Chamber of Secrets
+        - button "17 The Heir of Slytherin" [ref=e54] [cursor=pointer]:
+          - generic [ref=e55]: "17"
+          - generic [ref=e56]: The Heir of Slytherin
+        - button "18 Dobby's Reward" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: "18"
+          - generic [ref=e59]: Dobby's Reward
+    - main [ref=e60]:
+      - generic [ref=e61]:
+        - heading "Chapter 1. The Worst Birthday" [level=1] [ref=e62]
+        - generic [ref=e63]: 0:00 / 9:01:06
+      - article [ref=e64]:
+        - paragraph [ref=e65] [cursor=pointer]: Chapter One. The Worst Birthday.
+        - paragraph [ref=e66] [cursor=pointer]: Not for the first time, an argument had broken out over breakfast at number four, Privet Drive. Mr Vernon Dursley had been woken in the early hours of the morning by a loud, hooting noise from his nephew Harry's room.
+        - paragraph [ref=e67] [cursor=pointer]: "'Third time this week!' he roared across the table. 'If you can't control that owl, it'll have to go!'"
+        - paragraph [ref=e68] [cursor=pointer]: Harry tried, yet again, to explain.
+        - paragraph [ref=e69] [cursor=pointer]: "'She's bored,' he said. 'She's used to flying around outside. If I could just let her out at night ...'"
+        - paragraph [ref=e70] [cursor=pointer]: "'Do I look stupid?' snarled Uncle Vernon, a bit of fried egg dangling from his bushy moustache. 'I know what'll happen if that owl's let out.'"
+        - paragraph [ref=e71] [cursor=pointer]: He exchanged dark looks with his wife, Petunia.
+        - paragraph [ref=e72] [cursor=pointer]: Harry tried to argue back but his words were drowned by a long, loud belch from the Dursleys' son, Dudley.
+        - paragraph [ref=e73] [cursor=pointer]: "'I want more bacon.'"
+        - paragraph [ref=e74] [cursor=pointer]: "'There's more in the frying pan, sweetums,' said Aunt Petunia, turning misty eyes on her massive son. 'We must feed you up while we've got the chance ... I don't like the sound of that school food ...'"
+        - paragraph [ref=e75] [cursor=pointer]: "'Nonsense, Petunia, I never went hungry when I was at Smeltings,' said Uncle Vernon heartily. 'Dudley gets enough, don't you, son?'"
+        - paragraph [ref=e76] [cursor=pointer]: Dudley, who was so large his bottom drooped over either side of the kitchen chair, grinned and turned to Harry.
+        - paragraph [ref=e77] [cursor=pointer]: "'Pass the frying pan.'"
+        - paragraph [ref=e78] [cursor=pointer]: "'You've forgotten the magic word,' said Harry irritably."
+        - paragraph [ref=e79] [cursor=pointer]: "The effect of this simple sentence on the rest of the family was incredible: Dudley gasped and fell off his chair with a crash that shook the whole kitchen; Mrs Dursley gave a small scream and"
+        - paragraph [ref=e80] [cursor=pointer]: clapped her hands to her mouth; Mr Dursley jumped to his feet, veins throbbing in his temples.
+        - paragraph [ref=e81] [cursor=pointer]: "'I meant \"please\"!' said Harry quickly. 'I didn't mean -'"
+        - paragraph [ref=e82] [cursor=pointer]: "'WHAT HAVE I TOLD YOU,' thundered his uncle, spraying spit over the table, 'ABOUT SAYING THE M WORD IN OUR HOUSE?'"
+        - paragraph [ref=e83] [cursor=pointer]: "'But I -'"
+        - paragraph [ref=e84] [cursor=pointer]: "'HOW DARE YOU THREATEN DUDLEY!' roared Uncle Vernon, pounding the table with his fist."
+        - paragraph [ref=e85] [cursor=pointer]: "'I just -'"
+        - paragraph [ref=e86] [cursor=pointer]: "'I WARNED YOU! I WILL NOT TOLERATE MENTION OF YOUR ABNORMALITY UNDER THIS ROOF!'"
+        - paragraph [ref=e87] [cursor=pointer]: Harry stared from his purple-faced uncle to his pale aunt, who was trying to heave Dudley to his feet.
+        - paragraph [ref=e88] [cursor=pointer]: "'All right,' said Harry, 'all right ...'"
+        - paragraph [ref=e89] [cursor=pointer]: Uncle Vernon sat back down, breathing like a winded rhinoceros and watching Harry closely out of the corners of his small, sharp eyes.
+        - paragraph [ref=e90] [cursor=pointer]: Ever since Harry had come home for the summer holidays, Uncle Vernon had been treating him like a bomb that might go off at any moment, because Harry wasn't a normal boy. As a matter of fact, he was as not normal as it is possible to be.
+        - paragraph [ref=e91] [cursor=pointer]: Harry Potter was a wizard - a wizard fresh from his first year at Hogwarts School of Witchcraft and Wizardry. And if the Dursleys were unhappy to have him back for the holidays, it was nothing to how Harry felt.
+        - paragraph [ref=e92] [cursor=pointer]: He missed Hogwarts so much it was like having a constant stomach ache. He missed the castle, with its secret passageways and ghosts, his lessons (though perhaps not Snape, the Potions master), the post arriving by owl, eating banquets in the Great Hall, sleeping in his four-poster bed in the tower dormitory, visiting the gamekeeper, Hagrid, in his cabin in the grounds next to the Forbidden Forest and, especially, Quidditch, the most popular sport in the wizarding world (six tall goalposts, four flying balls and fourteen players on broomsticks).
+        - paragraph [ref=e93] [cursor=pointer]: All Harry's spellbooks, his wand, robes, cauldron and top-of-the-range Nimbus Two Thousand broomstick had been locked in a cupboard under the stairs by Uncle Vernon the instant Harry had come home. What did the Dursleys care if Harry lost his place in the house Quidditch team because he hadn't practised all sum-
+        - paragraph [ref=e94] [cursor=pointer]: mer? What was it to the Dursleys if Harry went back to school without any of his homework done? The Dursleys were what wizards called Muggles (not a drop of magical blood in their veins) and as far as they were concerned, having a wizard in the family was a matter of deepest shame. Uncle Vernon had even padlocked Harry's owl, Hedwig, inside her cage, to stop her carrying messages to anyone in the wizarding world.
+        - paragraph [ref=e95] [cursor=pointer]: Harry looked nothing like the rest of the family. Uncle Vernon was large and neckless, with an enormous black moustache; Aunt Petunia was horse-faced and bony; Dudley was blond, pink and porky. Harry, on the other hand, was small and skinny, with brilliant green eyes and jet-black hair that was always untidy. He wore round glasses, and on his forehead was a thin, lightning-shaped scar.
+        - paragraph [ref=e96] [cursor=pointer]: It was this scar that made Harry so particularly unusual, even for a wizard. This scar was the only hint of Harry's very mysterious past, of the reason he had been left on the Dursleys' doorstep eleven years before.
+        - paragraph [ref=e97] [cursor=pointer]: At the age of one, Harry had somehow survived a curse from the greatest dark sorcerer of all time, Lord Voldemort, whose name most witches and wizards still feared to speak. Harry's parents had died in Voldemort's attack, but Harry had escaped with his lightning scar, and somehow - nobody understood why - Voldemort's powers had been destroyed the instant he had failed to kill Harry.
+        - paragraph [ref=e98] [cursor=pointer]: So Harry had been brought up by his dead mother's sister and her husband. He had spent ten years with the Dursleys, never understanding why he kept making odd things happen without meaning to, believing the Dursleys' story that he had got his scar in the car crash which had killed his parents.
+        - paragraph [ref=e99] [cursor=pointer]: And then, exactly a year ago, Hogwarts had written to Harry, and the whole story had come out. Harry had taken up his place at wizard school, where he and his scar were famous ... but now the school year was over, and he was back with the Dursleys for the summer, back to being treated like a dog that had rolled in something smelly.
+        - paragraph [ref=e100] [cursor=pointer]: The Dursleys hadn't even remembered that today happened to be Harry's twelfth birthday. Of course, his hopes hadn't been high; they'd never given him a proper present, let alone a cake - but to ignore it completely ...
+        - paragraph [ref=e101] [cursor=pointer]: At that moment, Uncle Vernon cleared his throat importantly and said, 'Now, as we all know, today is a very important day.'
+        - paragraph [ref=e102] [cursor=pointer]: Harry looked up, hardly daring to believe it.
+        - paragraph [ref=e103] [cursor=pointer]: "'This could well be the day I make the biggest deal of my career,' said Uncle Vernon."
+        - paragraph [ref=e104] [cursor=pointer]: Harry went back to his toast. Of course, he thought bitterly, Uncle Vernon was talking about the stupid dinner party. He'd been talking of nothing else for a fortnight. Some rich builder and his wife were coming to dinner and Uncle Vernon was hoping to get a huge order from him (Uncle Vernon's company made drills).
+        - paragraph [ref=e105] [cursor=pointer]: "'I think we should run through the schedule one more time,' said Uncle Vernon. 'We should all be in position at eight o'clock. Petunia, you will be -?'"
+        - paragraph [ref=e106] [cursor=pointer]: "'In the lounge,' said Aunt Petunia promptly, 'waiting to welcome them graciously to our home.'"
+        - paragraph [ref=e107] [cursor=pointer]: "'Good, good. And Dudley?'"
+        - paragraph [ref=e108] [cursor=pointer]: "'I'll be waiting to open the door.' Dudley put on a foul, simpering smile. 'May I take your coats, Mr and Mrs Mason?'"
+        - paragraph [ref=e109] [cursor=pointer]: "'They'll love him!' cried Aunt Petunia rapturously."
+        - paragraph [ref=e110] [cursor=pointer]: "'Excellent, Dudley,' said Uncle Vernon. Then he rounded on Harry. 'And you?'"
+        - paragraph [ref=e111] [cursor=pointer]: "'I'll be in my bedroom, making no noise and pretending I'm not there,' said Harry tonelessly."
+        - paragraph [ref=e112] [cursor=pointer]: "'Exactly,' said Uncle Vernon nastily. 'I will lead them into the lounge, introduce you, Petunia, and pour them drinks. At eight fifteen -'"
+        - paragraph [ref=e113] [cursor=pointer]: "'I'll announce dinner,' said Aunt Petunia."
+        - paragraph [ref=e114] [cursor=pointer]: "'And Dudley, you'll say -'"
+        - paragraph [ref=e115] [cursor=pointer]: "'May I take you through to the dining room, Mrs Mason?' said Dudley, offering his fat arm to an invisible woman."
+        - paragraph [ref=e116] [cursor=pointer]: "'My perfect little gentleman!' sniffed Aunt Petunia."
+        - paragraph [ref=e117] [cursor=pointer]: "'And you?' said Uncle Vernon viciously to Harry."
+        - paragraph [ref=e118] [cursor=pointer]: "'I'll be in my room, making no noise and pretending I'm not there,' said Harry dully."
+        - paragraph [ref=e119] [cursor=pointer]: "'Precisely. Now, we should aim to get in a few good compliments at dinner. Petunia, any ideas?'"
+        - paragraph [ref=e120] [cursor=pointer]: "'Vernon tells me you're a wonderful golfer, Mr Mason ... Do tell me where you bought your dress, Mrs Mason ...'"
+        - paragraph [ref=e121] [cursor=pointer]: "'Perfect ... Dudley?'"
+        - paragraph [ref=e122] [cursor=pointer]: "'How about: \"We had to write an essay about our hero at"
+        - paragraph [ref=e123] [cursor=pointer]: school, Mr Mason, and I wrote about you." '
+        - paragraph [ref=e124] [cursor=pointer]: This was too much for both Aunt Petunia and Harry. Aunt Petunia burst into tears and hugged her son, while Harry ducked under the table so they wouldn't see him laughing.
+        - paragraph [ref=e125] [cursor=pointer]: "'And you, boy?'"
+        - paragraph [ref=e126] [cursor=pointer]: Harry fought to keep his face straight as he emerged.
+        - paragraph [ref=e127] [cursor=pointer]: "'I'll be in my room, making no noise and pretending I'm not there,' he said."
+        - paragraph [ref=e128] [cursor=pointer]: "'Too right you will,' said Uncle Vernon forcefully. 'The Masons don't know anything about you and it's going to stay that way. When dinner's over, you take Mrs Mason back to the lounge for coffee, Petunia, and I'll bring the subject round to drills. With any luck, I'll have the deal signed and sealed before the News at Ten. We'll be shopping for a holiday home in Majorca this time tomorrow.'"
+        - paragraph [ref=e129] [cursor=pointer]: Harry couldn't feel too excited about this. He didn't think the Dursleys would like him any better in Majorca than they did in Privet Drive.
+        - paragraph [ref=e130] [cursor=pointer]: "'Right - I'm off into town to pick up the dinner jackets for Dudley and me. And you,' he snarled at Harry, 'you stay out of your aunt's way while she's cleaning.'"
+        - paragraph [ref=e131] [cursor=pointer]: Harry left through the back door. It was a brilliant, sunny day. He crossed the lawn, slumped down on the garden bench and sang under his breath, 'Happy birthday to me ... happy birthday to me ...'
+        - paragraph [ref=e132] [cursor=pointer]: No cards, no presents, and he would be spending the evening pretending not to exist. He gazed miserably into the hedge. He had never felt so lonely. More than anything else at Hogwarts, more even than playing Quidditch, Harry missed his best friends, Ron Weasley and Hermione Granger. They, however, didn't seem to be missing him at all. Neither of them had written to him all summer, even though Ron had said he was going to ask Harry to come and stay.
+        - paragraph [ref=e133] [cursor=pointer]: Countless times, Harry had been on the point of unlocking Hedwig's cage by magic and sending her to Ron and Hermione with a letter, but it wasn't worth the risk. Underage wizards weren't allowed to use magic outside school. Harry hadn't told the Dursleys this; he knew it was only their terror that he might turn them all into dung beetles that stopped them locking him in the cupboard under the stairs with his wand and broomstick. For the
+        - paragraph [ref=e134] [cursor=pointer]: first couple of weeks back, Harry had enjoyed muttering nonsense words under his breath and watching Dudley tearing out of the room as fast as his fat legs would carry him. But the long silence from Ron and Hermione had made Harry feel so cut off from the magical world that even taunting Dudley had lost its appeal - and now Ron and Hermione had forgotten his birthday.
+        - paragraph [ref=e135] [cursor=pointer]: What wouldn't he give now for a message from Hogwarts? From any witch or wizard? He'd almost be glad of a sight of his arch-enemy, Draco Malfoy, just to be sure it hadn't all been a dream ...
+        - paragraph [ref=e136] [cursor=pointer]: Not that his whole year at Hogwarts had been fun. At the very end of last term, Harry had come face to face with none other than Lord Voldemort himself. Voldemort might be a ruin of his former self, but he was still terrifying, still cunning, still determined to regain power. Harry had slipped through Voldemort's clutches for a second time, but it had been a narrow escape, and even now, weeks later, Harry kept waking in the night, drenched in cold sweat, wondering where Voldemort was now, remembering his livid face, his wide, mad eyes ...
+        - paragraph [ref=e137] [cursor=pointer]: Harry suddenly sat bolt upright on the garden bench. He had been staring absent-mindedly into the hedge - and the hedge was staring back. Two enormous green eyes had appeared among the leaves.
+        - paragraph [ref=e138] [cursor=pointer]: Harry jumped to his feet just as a jeering voice floated across the lawn.
+        - paragraph [ref=e139] [cursor=pointer]: "'I know what day it is,' sang Dudley, waddling towards him."
+        - paragraph [ref=e140] [cursor=pointer]: The huge eyes blinked and vanished.
+        - paragraph [ref=e141] [cursor=pointer]: "'What?' said Harry, not taking his eyes off the spot where they had been."
+        - paragraph [ref=e142] [cursor=pointer]: "'I know what day it is,' Dudley repeated, coming right up to him."
+        - paragraph [ref=e143] [cursor=pointer]: "'Well done,' said Harry. 'So you've finally learned the days of the week.'"
+        - paragraph [ref=e144] [cursor=pointer]: "'Today's your birthday,' sneered Dudley. 'How come you haven't got any cards? Haven't you even got friends at that freak place?'"
+        - paragraph [ref=e145] [cursor=pointer]: "'Better not let your mum hear you talking about my school,' said Harry coolly."
+        - paragraph [ref=e146] [cursor=pointer]: Dudley hitched up his trousers, which were slipping down his fat bottom.
+        - paragraph [ref=e147] [cursor=pointer]: "'Why're you staring at the hedge?' he said suspiciously."
+        - paragraph [ref=e148] [cursor=pointer]: "'I'm trying to decide what would be the best spell to set it on fire,' said Harry."
+        - paragraph [ref=e149] [cursor=pointer]: Dudley stumbled backwards at once, a look of panic on his fat face.
+        - paragraph [ref=e150] [cursor=pointer]: "'You c-can't - Dad told you you're not to do m-magic - he said he'll chuck you out of the house - and you haven't got anywhere else to go - you haven't got any friends to take you -'"
+        - paragraph [ref=e151] [cursor=pointer]: "'Jiggery pokery!' said Harry in a fierce voice. 'Hocus pocus ... squiggly wiggly ...'"
+        - paragraph [ref=e152] [cursor=pointer]: "'MUUUUUUM!' howled Dudley, tripping over his feet as he dashed back towards the house. 'MUUUUM! He's doing you know what!'"
+        - paragraph [ref=e153] [cursor=pointer]: Harry paid dearly for his moment of fun. As neither Dudley nor the hedge was in any way hurt, Aunt Petunia knew he hadn't really done magic, but he still had to duck as she aimed a heavy blow at his head with the soapy frying pan. Then she gave him work to do, with the promise he wouldn't eat again until he'd finished.
+        - paragraph [ref=e154] [cursor=pointer]: While Dudley lolled around watching and eating ice-creams, Harry cleaned the windows, washed the car, mowed the lawn, trimmed the flowerbeds, pruned and watered the roses and repainted the garden bench. The sun blazed overhead, burning the back of his neck. Harry knew he shouldn't have risen to Dudley's bait, but Dudley had said the very thing Harry had been thinking himself ... maybe he didn't have any friends at Hogwarts ...
+        - paragraph [ref=e155] [cursor=pointer]: "'Wish they could see famous Harry Potter now,' he thought savagely, as he spread manure on the flowerbeds, his back aching, sweat running down his face."
+        - paragraph [ref=e156] [cursor=pointer]: It was half past seven in the evening when at last, exhausted, he heard Aunt Petunia calling him.
+        - paragraph [ref=e157] [cursor=pointer]: "'Get in here! And walk on the newspaper!'"
+        - paragraph [ref=e158] [cursor=pointer]: "Harry moved gladly into the shade of the gleaming kitchen. On top of the fridge stood tonight's pudding: a huge mound of whipped cream and sugared violets. A joint of roast pork was sizzling in the oven."
+        - paragraph [ref=e159] [cursor=pointer]: "'Eat quickly! The Masons will be here soon!' snapped Aunt Petunia, pointing to two slices of bread and a lump of cheese on the kitchen table. She was already wearing a salmon-pink cocktail dress."
+        - paragraph [ref=e160] [cursor=pointer]: Harry washed his hands and bolted down his pitiful supper. The moment he had finished, Aunt Petunia whisked away his
+        - paragraph [ref=e161] [cursor=pointer]: plate. 'Upstairs! Hurry!'
+        - paragraph [ref=e162] [cursor=pointer]: As he passed the door to the living room, Harry caught a glimpse of Uncle Vernon and Dudley in bow-ties and dinner jackets. He had only just reached the upstairs landing when the doorbell rang and Uncle Vernon's furious face appeared at the foot of the stairs.
+        - paragraph [ref=e163] [cursor=pointer]: "'Remember, boy - one sound ...'"
+        - paragraph [ref=e164] [cursor=pointer]: Harry crossed to his bedroom on tiptoe, slipped inside, closed the door and turned to collapse on his bed.
+        - paragraph [ref=e165] [cursor=pointer]: The trouble was, there was already someone sitting on it.
+  - generic [ref=e166]:
+    - button "Prev" [ref=e167] [cursor=pointer]
+    - button "Play" [ref=e168] [cursor=pointer]
+    - button "Next" [ref=e169] [cursor=pointer]
+    - slider "Seek" [ref=e170]: "0"
+    - generic [ref=e171]: 0:00 / 15:51
