@@ -281,6 +281,40 @@ class ReaderPipelineTests(unittest.TestCase):
         self.assertEqual(manifest["chapters"][2]["kind"], "outro")
         self.assertEqual(manifest["duration"], 105.0)
 
+    def test_reader_html_persists_and_restores_latest_paragraph(self):
+        manifest = {
+            "title": "Example Book",
+            "duration": 3.0,
+            "chapters": [
+                {
+                    "kind": "chapter",
+                    "number": 1,
+                    "title": "One",
+                    "audio": "chapter_001.mp3",
+                    "start": 0.0,
+                    "duration": 3.0,
+                    "paragraphs": [
+                        {
+                            "id": "c001_f000001",
+                            "text": "First",
+                            "begin": 0.0,
+                            "end": 1.5,
+                            "localBegin": 0.0,
+                            "localEnd": 1.5,
+                        }
+                    ],
+                }
+            ],
+        }
+
+        html = reader_pipeline.build_reader_html(manifest)
+
+        self.assertIn('const progressKey = "alignedReaderProgress:Example Book";', html)
+        self.assertIn("function saveProgress(paragraphId) {", html)
+        self.assertIn("function loadSavedProgress() {", html)
+        self.assertIn("const savedProgress = loadSavedProgress();", html)
+        self.assertIn("loadChapter(savedProgress.index, false, savedProgress.paragraphId);", html)
+
 
 if __name__ == "__main__":
     unittest.main()

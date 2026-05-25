@@ -741,6 +741,7 @@ def relative_to_output(path: Path, output_dir: Path) -> Path:
 
 def build_reader_html(manifest: dict) -> str:
     manifest_json = json.dumps(manifest, ensure_ascii=False)
+    progress_key_json = json.dumps(f"alignedReaderProgress:{manifest['title']}")
     title = html.escape(manifest["title"])
     return f"""<!doctype html>
 <html lang="en">
@@ -960,6 +961,7 @@ def build_reader_html(manifest: dict) -> str:
     const seekBar = document.getElementById('seekBar');
     const timeLabel = document.getElementById('timeLabel');
     const chapterTime = document.getElementById('chapterTime');
+    const progressKey = {progress_key_json};
     let currentIndex = 0;
     let currentParagraphId = null;
 
@@ -969,6 +971,47 @@ def build_reader_html(manifest: dict) -> str:
       const m = Math.floor((seconds % 3600) / 60);
       const s = seconds % 60;
       return h ? `${{h}}:${{String(m).padStart(2, '0')}}:${{String(s).padStart(2, '0')}}` : `${{m}}:${{String(s).padStart(2, '0')}}`;
+    }}
+
+    function findParagraphPosition(paragraphId) {{
+      for (let index = 0; index < manifest.chapters.length; index += 1) {{
+        const paragraph = manifest.chapters[index].paragraphs.find((item) => item.id === paragraphId);
+        if (paragraph) {{
+          return {{ index, paragraph }};
+        }}
+      }}
+      return null;
+    }}
+
+    function saveProgress(paragraphId) {{
+      const position = findParagraphPosition(paragraphId);
+      if (!position) return;
+      try {{
+        localStorage.setItem(progressKey, JSON.stringify({{
+          index: position.index,
+          paragraphId,
+          localBegin: position.paragraph.localBegin
+        }}));
+      }} catch (error) {{
+        // localStorage can be unavailable in private or restricted browser contexts.
+      }}
+    }}
+
+    function loadSavedProgress() {{
+      try {{
+        const raw = localStorage.getItem(progressKey);
+        if (!raw) return null;
+        const progress = JSON.parse(raw);
+        const position = findParagraphPosition(progress.paragraphId);
+        if (!position) return null;
+        return {{
+          index: position.index,
+          paragraphId: position.paragraph.id,
+          localBegin: position.paragraph.localBegin
+        }};
+      }} catch (error) {{
+        return null;
+      }}
     }}
 
     function renderNav() {{
@@ -984,7 +1027,7 @@ def build_reader_html(manifest: dict) -> str:
       }});
     }}
 
-    function loadChapter(index, autoplay = false) {{
+    function loadChapter(index, autoplay = false, startParagraphId = null) {{
       currentIndex = Math.max(0, Math.min(index, manifest.chapters.length - 1));
       const chapter = manifest.chapters[currentIndex];
       currentParagraphId = null;
@@ -1010,6 +1053,12 @@ def build_reader_html(manifest: dict) -> str:
         reader.appendChild(node);
       }}
       renderNav();
+      if (startParagraphId) {{
+        const paragraph = chapter.paragraphs.find((item) => item.id === startParagraphId);
+        if (paragraph) {{
+          audio.currentTime = paragraph.localBegin;
+        }}
+      }}
       updateTimes();
       if (autoplay) {{
         audio.play();
@@ -1038,6 +1087,7 @@ def build_reader_html(manifest: dict) -> str:
         const node = document.getElementById(currentParagraphId);
         node?.classList.add('active');
         node?.scrollIntoView({{ block: 'center', behavior: 'smooth' }});
+        saveProgress(currentParagraphId);
       }}
     }}
 
@@ -1064,7 +1114,12 @@ def build_reader_html(manifest: dict) -> str:
       }}
     }});
 
-    loadChapter(0, false);
+    const savedProgress = loadSavedProgress();
+    if (savedProgress) {{
+      loadChapter(savedProgress.index, false, savedProgress.paragraphId);
+    }} else {{
+      loadChapter(0, false);
+    }}
   </script>
 </body>
 </html>
